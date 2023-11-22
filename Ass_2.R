@@ -1,0 +1,10 @@
+v<-c(1,3,4,5,7)
+print(class(v))
+print(v[c(4,2)])
+print(paste(v[4],v[2],v[v>5]))
+v<-sort(v,decreasing=TRUE)
+print(v)
+v[v>=4]<-0
+print(v)
+v<-NULL
+print(v)

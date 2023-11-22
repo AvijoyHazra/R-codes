@@ -1,0 +1,16 @@
+empId<-c(10,20,30,40)
+empName<-c("Avijoy","Mainak","jana","Sourav")
+empsal<-10000:10003
+empList<-list("Id"=empId,"name"=empName,"sal"=empsal)
+print(empList)
+print(empList[[2]])
+  print(empList["sal"])`
+  print(empList$Id[2])`
+empAge<-list("age"=40:43)
+print(append(empList,empAge))
+emp<-c(empList,empAge)
+print(emp)
+mat<-matrix(unlist(emp),nrow=4,byrow=FALSE)
+print(mat)
+print(typeof(mat))
+print(class(mat))

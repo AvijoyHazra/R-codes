@@ -1,0 +1,20 @@
+x=8
+y=9
+print(x+y)
+str <- "Hello python"
+print(str)
+s<-1:8
+print(s)
+print(class(s))
+print(typeof(s))
+print(s[2])
+k<-seq(1,3,by=0.2)
+print(k)
+d<-seq(-5,5,by=1)
+print(d)
+e<-seq(1,5,length.out=50)
+print(e)
+e<-NULL
+print(e)
+rm(e)
+print(e)
